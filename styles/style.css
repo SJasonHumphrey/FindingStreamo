@@ -739,7 +739,7 @@ main
 #main-mylists .create-new-list {
   position: relative;
   float: right;
-  margin: 0;
+  margin-top: 5px;
 }
 
 #main-mylists .create-new-list .new-list-icon {
