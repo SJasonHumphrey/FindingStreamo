@@ -850,11 +850,9 @@ function showMyLists() {
 
 
 
-/*
-==============================
-    SAMPLE LIST DATA
-==============================
-*/
+
+    // SAMPLE LIST DATA
+
 
 function showNoListsText() {
     userLists.innerHTML = `
