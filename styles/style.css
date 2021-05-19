@@ -8,6 +8,11 @@
   src: url(https://fonts.gstatic.com/s/materialicons/v41/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2)
     format("woff2");
 }
+
+#logo{
+  margin-top: 5px;
+}
+
 #streamer{
   border-radius: 50%;
   margin-top: 10px;
@@ -397,7 +402,7 @@ main #main-content .media-item .is-in-collection {
   left: auto;
   float: right;
   right: -8px;
-  color: #8c8c8c;
+  color: #fdfafa;
   cursor: pointer;
 }
 
@@ -482,7 +487,7 @@ main #full-media-content {
   left: auto;
   display: none;
   z-index: 3;
-  background-color: #222430;
+  background-color: #050505;
   height: calc(100vh - 150px);
   overflow-y: auto;
 }
@@ -566,7 +571,7 @@ main #full-media-content #media-details #media-details-bar {
   padding-right: 10px;
   text-align: center;
   color: #ddd;
-  background-color: #222430;
+  background-color: #070707;
 }
 
 @media (min-width: 800px) {
@@ -743,7 +748,7 @@ main
 }
 
 #main-mylists .show-sample-lists {
-  color: #111;
+  color: rgb(252, 248, 248);
 }
 
 #main-mylists #user-lists .list-titlebar {
@@ -864,48 +869,3 @@ main
   font-family: monospace;
 }
 
-/* dark mode */
-
-.checkbox {
-	opacity: 0;
-	position: absolute;
-}
-
-.label {
-	background-color: #111;
-	border-radius: 50px;
-	cursor: pointer;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 5px;
-	position: relative;
-	height: 26px;
-	width: 50px;
-	transform: scale(1.5);
-}
-
-.label .ball {
-	background-color: #fff;
-	border-radius: 50%;
-	position: absolute;
-	top: 2px;
-	left: 2px;
-	height: 22px;
-	width: 22px;
-	transform: translateX(0px);
-	transition: transform 0.2s linear;
-}
-
-.checkbox:checked + .label .ball {
-	transform: translateX(24px);
-}
-
-
-.fa-moon {
-	color: #f1c40f;
-}
-
-.fa-sun {
-	color: #f39c12;
-}
